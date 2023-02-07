@@ -1,0 +1,18 @@
+{
+    "/api2": {
+      "target": "https://prd0202.akc.co/appexp/servlet/payment/entidadRecaudo/consultarContrato",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api2": ""
+      }
+    },
+    "/api": {
+      "target": "https://prd0202.akc.co/appexp/servlet/payment/entidadRecaudo/Couponentidad",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }

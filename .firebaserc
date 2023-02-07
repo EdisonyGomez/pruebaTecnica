@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "prueba-tecnica-000"
+  },
+  "targets": {
+    "prueba-tecnica-000": {
+      "hosting": {
+        "prueba_tecnica": [
+          "prueba-tecnica-000"
+        ]
+      }
+    }
+  }
+}
